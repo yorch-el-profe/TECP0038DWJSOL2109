@@ -27,5 +27,17 @@
 /* ---------- Flexbox ---------- */
 .contenedor-flex {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  height: 500px;
+  border: 2px solid black;
+}
+
+.caja-arriba {
+  align-self: flex-start;
+}
+
+.caja-abajo {
+  align-self: flex-end;
 }

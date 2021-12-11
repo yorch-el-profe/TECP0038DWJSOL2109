@@ -1,0 +1,25 @@
+.caja {
+  width: 100px;
+  height: 100px;
+  background-color: #222;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  position: absolute;
+  top: 0;
+}
+
+.contenedor {
+  border: 2px solid black;
+  width: 100vw; /* viewport vw -> viewport width */
+}
+
+.subcontenedor {
+  width: 800px;
+  height: 800px;
+  border: 2px dashed black;
+}
+
+body {
+  margin: 0;
+}
