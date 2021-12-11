@@ -1,0 +1,29 @@
+h1 {
+  color: #E44949;
+}
+
+h2 {
+  color: rgb(176, 214, 120);
+}
+
+h3 {
+  color: yellow;
+}
+
+.parrafo-grande {
+  font-size: 25px;
+  color: blue ;
+}
+
+.parrafo-chiquito {
+  font-size: 18px;
+  color: green;
+  margin-top: 80px;
+  padding-top: 30px;
+  border: 1px solid black;
+}
+
+.parrafo-grandote {
+  font-size: 50px;
+  color: black;
+}

@@ -1,0 +1,31 @@
+.caja {
+  width: 100px;
+  height: 100px;
+  background-color: #222;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.caja-derecha {
+  float: right;
+}
+
+.caja-izquierda {
+  float: left;
+}
+
+.contenedor {
+  text-align: center;
+}
+
+.texto-centrado {
+  text-align: center;
+}
+
+/* ---------- Flexbox ---------- */
+.contenedor-flex {
+  display: flex;
+  justify-content: space-between;
+}
