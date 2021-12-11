@@ -98,11 +98,23 @@ header p {
 header .button-header {
   margin-top: 40px;
   margin-bottom: 60px;
+}
+
+header .button-header input::placeholder {
+  color: #c3c2c4;
+}
+
+header .button-header button {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.input-button {
   display: flex;
   justify-content: center;
 }
 
-header .button-header input  {
+.input-button input {
   height: 55px;
   font-size: 16px;
   border-top-left-radius: 10px;
@@ -113,11 +125,7 @@ header .button-header input  {
   padding-left: 20px;
 }
 
-header .button-header input::placeholder {
-  color: #c3c2c4;
-}
-
-header .button-header button {
+.input-button button {
   height: 55px;
   border-width: 1px;
   border-top-right-radius: 10px;
@@ -125,6 +133,41 @@ header .button-header button {
   border-color: #0f5758;
   background-color: #0f5758;
   color: white;
-  padding-left: 40px;
-  padding-right: 40px;
+}
+
+.input-button input::placeholder {
+  color: #c3c2c4;
+}
+
+#publish .text-publish .input-publish {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#publish .text-publish .input-publish label {
+  margin-right: 20px;
+  color: #0f5758;
+}
+
+#publish .text-publish .input-publish button {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#publish {
+  display: flex;
+  justify-content: space-around;
+}
+
+#publish .text-publish {
+  width: 50%;
+  font-size: 17px;
+  color: #78787a;
+}
+
+#publish .text-publish h1 {
+    font-size: 40px;
+    color: #0f5758;
+    font-family: 'Abril Fatface', cursive;
 }
