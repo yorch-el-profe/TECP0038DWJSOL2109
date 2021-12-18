@@ -17,6 +17,7 @@
 #publish {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 #publish .text-publish {

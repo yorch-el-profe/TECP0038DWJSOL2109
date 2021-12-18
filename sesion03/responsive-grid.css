@@ -1,0 +1,17 @@
+.caja {
+  width: 100px;
+  height: 100px;
+  background-color: #222;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 45%));
+  justify-items: center;
+}

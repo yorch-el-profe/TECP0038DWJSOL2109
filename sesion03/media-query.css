@@ -1,0 +1,58 @@
+.caja {
+  width: 100px;
+  height: 100px;
+  background-color: #222;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+}
+
+/*
+  Aplica para tamaños de 0 a 120px
+*/
+@media (max-width: 120px) {
+  .caja {
+    display: none;
+  }
+}
+
+/*
+  121px y 300px ancho
+*/
+@media (min-width: 121px) and (max-width: 300px) {
+  .caja {
+    width: 120px;
+    height: 120px;
+    background-color: red;
+  }
+}
+
+/* Medidas estandar */
+
+/* Dispositivo movil */
+@media (max-width: 575px) {
+  
+}
+
+/* Dispositivo pequeño */
+@media (min-width: 576px) and (max-width: 767px) {
+
+}
+
+/* Dispositivo mediano (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Cualquier otra cosa (monitores, tvs, pantalla imax del cine) */
+@media (min-width: 1200px) {
+
+}

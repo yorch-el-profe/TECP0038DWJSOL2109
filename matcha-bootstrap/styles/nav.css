@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.font-logo {
+  font-family: 'Overpass', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.btn-green {
+  background-color: #65b54c;
+  color: white;
+  font-weight: 600;
+}
+
+.link-green {
+  color: #65b54c;
+}
+
+.ugly-green {
+  color: #0f5758 !important;
+}

@@ -68,3 +68,40 @@ nav .sign-in button {
   padding-right: 10px;
   font-size: 17px;
 }
+
+/* Medidas estandar */
+
+/* Dispositivo movil */
+@media (max-width: 575px) {
+  nav ul {
+    display: none;
+  }
+
+  nav .sign-in {
+    display: none;
+  }
+}
+
+/* Dispositivo pequeño */
+@media (min-width: 576px) and (max-width: 767px) {
+  nav ul {
+    display: none;
+  }
+}
+
+/* Dispositivo mediano (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+  nav ul {
+    display: none;
+  }
+}
+
+/* Dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Cualquier otra cosa (monitores, tvs, pantalla imax del cine) */
+@media (min-width: 1200px) {
+
+}
