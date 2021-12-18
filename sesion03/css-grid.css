@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+}
+
+.caja {
+  width: 100px;
+  height: 100px;
+  background-color: #222;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+}
+
+.contenedor {
+  border: 3px dashed #222;
+  width: 100vw;
+  height: 100vh;
+
+  display: grid;
+  grid-template-columns: 150px 150px;
+  grid-template-rows: 150px 150px;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
