@@ -1,0 +1,59 @@
+@use "variables" as *;
+
+#features {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 45%));
+  justify-content: center;
+  justify-items: center;
+  gap: 20px;
+
+  article {
+    display: flex;
+    border: 1px solid $color-gris-raro;
+    border-radius: 4px;
+    background-color: white;
+
+    .feature-text {
+      width: 60%;
+      padding: 30px;
+
+      img {
+        width: 50px;
+        height: 50px;
+      }
+
+      h4 {
+        color: #4f4f4f;
+        font-weight: 400;
+        font-size: 25px;
+        margin: 0;
+        margin-top: 25px;
+      }
+
+      p {
+        color: #adadad;
+        margin: 0;
+        margin-top: 10px;
+        margin-bottom: 25px;
+      }
+
+      a {
+        color: #65b54c;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      .img-traffic {
+        width: 40%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        img {
+          width: 200px;
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,11 @@
 @use 'variables' as *;
 
+@use 'features';
+@use 'nav';
+@use 'media-queries';
+@use 'header';
+@use 'publish';
+
 body {
   margin: 0;
   font-family: $fuente-roboto;
@@ -32,101 +38,5 @@ body {
 
   input::placeholder {
     color: $color-gris-claro;
-  }
-} 
-
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 70px;
-  width: 100%;
-  background-color: $color-fondo;
-  top: 0;
-  position: fixed;
-
-  .logo {
-    display: flex;
-    align-items: center;
-    margin-left: 40px;
-
-    h1 {
-      margin-top: 0;
-      margin-bottom: 0;
-      margin-left: 10px;
-      color: $color-verde-fuerte;
-      font-size: 30px;
-      font-family: $fuente-overpass;
-      font-weight: 800;
-    }
-
-    img {
-      width: 50px;
-      height: 50px;
-    }
-  }
-
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    width: 40%;
-    color: $color-verde-fuerte;
-    font-weight: 600;
-    font-size: 17px;
-  }
-
-  .sign-in {
-    margin-right: 40px;
-
-    a {
-      color: $color-verde-claro;
-      text-decoration: none;
-      font-weight: 600;
-      font-size: 17px;
-    }
-
-    button {
-      margin-left: 10px;
-      color: white;
-      background-color: $color-verde-claro;
-      font-weight: 600;
-      border: none;
-      border-radius: 3px;
-      padding-top: 12px;
-      padding-bottom: 12px;
-      padding-left: 10px;
-      padding-right: 10px;
-      font-size: 17px;
-    }
-  }
-}
-
-/* Medidas estandar */
-
-/* Dispositivo movil */
-@media (max-width: 575px) {
-  nav ul {
-    display: none;
-  }
-
-  nav .sign-in {
-    display: none;
-  }
-}
-
-/* Dispositivo pequeño */
-@media (min-width: 576px) and (max-width: 767px) {
-  nav ul {
-    display: none;
-  }
-}
-
-/* Dispositivo mediano (tablets) */
-@media (min-width: 768px) and (max-width: 991px) {
-  nav ul {
-    display: none;
   }
 }

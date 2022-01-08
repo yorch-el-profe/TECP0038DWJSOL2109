@@ -1,0 +1,36 @@
+@use 'variables' as *;
+
+header {
+  text-align: center;
+  padding-top: 130px;
+  background-color: $color-fondo;
+
+  .intro {
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 70px;
+    color: $color-verde-fuerte;
+    font-family: $fuente-abril;
+  }
+
+  p {
+    font-size: 20px;
+    color: $color-texto;
+  }
+
+  .button-header {
+    margin-top: 40px;
+    margin-bottom: 60px;
+
+    input::placeholder {
+      color: $color-gris-claro;
+    }
+
+    button {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  }
+}
