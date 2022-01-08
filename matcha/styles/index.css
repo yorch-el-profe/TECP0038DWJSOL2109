@@ -1,3 +1,36 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.input-button {
+  display: flex;
+  justify-content: center;
+}
+.input-button input {
+  height: 55px;
+  font-size: 16px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-color: #c3c2c4;
+  border-width: 1px;
+  border-right: none;
+  padding-left: 20px;
+}
+.input-button button {
+  height: 55px;
+  border-width: 1px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-color: #0f5758;
+  background-color: #0f5758;
+  color: white;
+}
+.input-button input::placeholder {
+  color: #c3c2c4;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -5,33 +38,27 @@ nav {
   height: 70px;
   width: 100%;
   background-color: #fffbf7;
-
-  /* Pega la barra de navegación hasta arriba */
   top: 0;
   position: fixed;
 }
-
 nav .logo {
   display: flex;
   align-items: center;
   margin-left: 40px;
 }
-
 nav .logo h1 {
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 10px;
   color: #0f5758;
   font-size: 30px;
-  font-family: 'Overpass', sans-serif;
+  font-family: "Overpass", sans-serif;
   font-weight: 800;
 }
-
 nav .logo img {
   width: 50px;
   height: 50px;
 }
-
 nav ul {
   list-style: none;
   margin: 0;
@@ -43,18 +70,15 @@ nav ul {
   font-weight: 600;
   font-size: 17px;
 }
-
 nav .sign-in {
   margin-right: 40px;
 }
-
 nav .sign-in a {
   color: #65b54c;
   text-decoration: none;
   font-weight: 600;
   font-size: 17px;
 }
-
 nav .sign-in button {
   margin-left: 10px;
   color: white;
@@ -70,7 +94,6 @@ nav .sign-in button {
 }
 
 /* Medidas estandar */
-
 /* Dispositivo movil */
 @media (max-width: 575px) {
   nav ul {
@@ -81,14 +104,12 @@ nav .sign-in button {
     display: none;
   }
 }
-
 /* Dispositivo pequeño */
 @media (min-width: 576px) and (max-width: 767px) {
   nav ul {
     display: none;
   }
 }
-
 /* Dispositivo mediano (tablets) */
 @media (min-width: 768px) and (max-width: 991px) {
   nav ul {
@@ -96,12 +117,4 @@ nav .sign-in button {
   }
 }
 
-/* Dispositivos grandes (desktops) */
-@media (min-width: 992px) and (max-width: 1199px) {
-
-}
-
-/* Cualquier otra cosa (monitores, tvs, pantalla imax del cine) */
-@media (min-width: 1200px) {
-
-}
+/*# sourceMappingURL=index.css.map */

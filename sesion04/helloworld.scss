@@ -1,0 +1,28 @@
+@use 'variables' as *;
+@use 'otrasvariables' as x;
+
+.mi-primer-clase {
+  color: x.$color-principal;
+}
+
+.mi-segunda-clase {
+  background: $color-terciario;
+}
+
+.contenedor {
+  width: 100px;
+  height: 100px;
+
+  .caja {
+    background-color: $color-principal;
+
+    section {
+      display: flex;
+      flex-wrap: wrap;
+      
+      h1 {
+        display: flex;
+      }
+    }
+  }
+}
