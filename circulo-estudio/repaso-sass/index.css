@@ -1,0 +1,26 @@
+.contenedor .cajita {
+  display: flex;
+}
+.contenedor nav {
+  background-color: #ff1100;
+}
+.contenedor nav ul {
+  list-style: none;
+  display: flex;
+}
+.contenedor nav ul li {
+  color: #222222;
+}
+.contenedor nav ul li a {
+  text-decoration: none;
+}
+.contenedor section p {
+  color: #ff1100;
+}
+.contenedor section h3 {
+  color: #222222;
+  font-family: "Roboto", sans-serif;
+  font-size: 100px;
+}
+
+/*# sourceMappingURL=index.css.map */

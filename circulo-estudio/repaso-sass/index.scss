@@ -1,0 +1,37 @@
+@use 'variables' as *;
+
+.contenedor {
+
+  .cajita {
+    display: flex;
+  }
+
+  nav {
+    background-color: $color-rojo;
+
+    ul {
+      list-style: none;
+      display: flex;
+
+      li {
+        color: $color-negro;
+
+        a {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+  section {
+    p {
+      color: $color-rojo;
+    }
+
+    h3 {
+      color: $color-negro;
+      font-family: $fuente-roboto;
+      font-size: $tamano-fuente;
+    }
+  }
+}

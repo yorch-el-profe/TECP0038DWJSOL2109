@@ -1,0 +1,13 @@
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.contenedor .imagen {
+  width: 300px;
+}
+.contenedor .imagen img {
+  width: 200px;
+}
+
+/*# sourceMappingURL=index.css.map */
